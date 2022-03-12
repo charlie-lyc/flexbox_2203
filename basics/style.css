@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    /* width: 100px; */
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+}
+
+/*/////////////////////////////////////////////*/
+/*
+.item {
+    float: left;
+}
+.flex-container::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.flex-container {
+    background-color: #f4f4f4;
+}
+*/
+/* * * * * * * * * * REPLACE * * * * * * * * * */
+.flex-container {
+    display: flex;
+    background-color: #f4f4f4;
+}
+/*/////////////////////////////////////////////*/
+
+/* 'justify-content' ALWAYS ON MAIN AXIS : Default Value 'start' */
+.flex-container {
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+}
+
+/* 'align-items' ALWAYS ON CROSS AXIS : Default Value 'start' */
+.flex-container {
+    /* height: 500px; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+}
+
+/* Align Self */
+/*
+.item:nth-of-type(1) {
+    align-self: start;
+}
+.item:nth-of-type(3) {
+    align-self: end;
+}
+*/
+
+/* 'flex-direction' Has Default Value 'row' */
+.flex-container {
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* If There Are Many Items */
+.flex-container {
+    /* flex-wrap: wrap; */
+}
+
+/* Change Order */
+/*
+.item:nth-of-type(1) {
+    order: 2;
+}
+.item:nth-of-type(2) {
+    order: 3;
+}
+.item:nth-of-type(3) {
+    order: 1;
+}
+*/
+
+.item {
+    /*////////////////////*/
+    /* width: 100px; */
+    /* * * * * * * * * * * */
+    /* flex-basis: 300px; */
+    /*////////////////////*/
+}
+
+/* Change Flex-Basis */
+/*
+.item:nth-of-type(2) {
+    flex-basis: 200px;
+}
+.item:nth-of-type(3) {
+    flex-basis: 100px;
+}
+*/
+
+/* Flex Grow : Set Ratio Growing Width */
+/*
+.item:nth-of-type(1) {
+    flex-grow: 1;
+}
+.item:nth-of-type(2) {
+    flex-grow: 2;
+}
+.item:nth-of-type(3) {
+    flex-grow: 3;
+}
+*/
+
+.item {
+    /*////////////////////*/
+    /* flex-grow: 1; */
+    /* * * * * * * * * * * */
+    /* flex-basis: 300px; */
+    /*////////////////////*/
+}
+
+/* Flex Shrink : Set Ratio Shrinking Width */
+/*
+.item:nth-of-type(1) {
+    flex-shrink: 1;
+}
+.item:nth-of-type(2) {
+    flex-shrink: 2;
+}
+.item:nth-of-type(3) {
+    flex-shrink: 3;
+}
+*/
+
+/* Flex Properties Order: 'grow' 'shrink' 'basis' */
+.item {
+    /* flex: 1 0 100px; */
+    /* flex: 1 0 0; */
+    flex: 1
+}
