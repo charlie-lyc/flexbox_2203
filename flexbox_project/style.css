@@ -116,6 +116,7 @@ ul {
 }
 
 @media(max-width: 768px) {
+
     .header .container {
         flex-direction: column;
         padding-top: 20px;
@@ -126,6 +127,7 @@ ul {
         display: block;
         text-align: center;
     }
+    
 }
 
 
