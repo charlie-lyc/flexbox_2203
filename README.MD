@@ -1,2 +1,2 @@
 # Flexbox
-Learning basics of flexbox in CSS.
+Learning basics of flexbox in CSS
